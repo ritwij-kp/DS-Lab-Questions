@@ -18,7 +18,6 @@ Node *Insert(Node *root, int value)
 {
 	if (root == NULL)
 	{
-		// Insert the first node, if root is NULL.
 		return new Node(value);
 	}
 	if (value > root->data)
